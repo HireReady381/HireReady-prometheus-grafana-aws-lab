@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "name_prefix" {
   description = "Prefix applied to AWS resource names/tags"
   type        = string
-  default     = "pathnex-prom-graf-lab"
+  default     = "HireReady-prom-graf-lab"
 }
 
 variable "vpc_cidr" {
@@ -72,12 +72,12 @@ variable "ssh_ingress_cidr" {
 variable "grafana_admin_user" {
   description = "Grafana admin username"
   type        = string
-  default     = "pathnex"
+  default     = "HireReady"
 }
 
 variable "grafana_admin_password" {
   description = "Grafana admin password"
   type        = string
-  default     = "Pathnex@2026!"
+  default     = "HireReady@2026!"
   sensitive   = true
 }
